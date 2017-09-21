@@ -1,0 +1,7 @@
+@import 'title-image.scss';
+@import 'title-content.scss';
+.title {
+    width: $Width-Title;
+    height:$height-Title-image;
+    display: flex;
+}

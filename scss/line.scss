@@ -1,0 +1,36 @@
+.line-small {
+    width: 100px;
+    height: 7px;
+    border-radius: 7px;
+    background-color: #eeeeee;
+}
+
+.line-medium {
+    width: 150px;
+    height: 7px;
+    border-radius: 7px;
+    background-color: #eeeeee;
+}
+
+.line-large {
+    width: 100%;
+    height: 7px;
+    border-radius: 7px;
+    background-color: #eeeeee;
+}
+[class*="line"] {
+    animation: loading 2s linear infinite ;
+    
+    background: linear-gradient(to right, #eee 8%, #ddd 16%, #eee 30%);
+    background-size: 800px auto ;
+
+}
+
+@keyframes loading {
+    0% {
+        background-position: -800px;
+    }
+    100% {
+        background-position: 800px;
+    }
+}

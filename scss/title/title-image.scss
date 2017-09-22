@@ -1,5 +1,26 @@
 .title-image {
     width: $height-Title-image;
     height: $height-Title-image;
-    background-color: red;
+    
+    .image{
+        margin-left: $Margin-Image-left;
+        width: $height-Title-image - $Margin-Image-left*2;
+        height:$height-Title-image - $Margin-Image-top*2;
+        margin-top: $Margin-Image-top;
+        background-color: #eeeeee;
+        
+        background: linear-gradient(to right, #eeeeee 10%, #dddddd 20%, #eeeeee 40%);
+        animation: image-loading 2s linear infinite;
+        background-size: 800px auto;
+     
+    }
+}
+
+@keyframes image-loading {
+    0% {
+        background-position: -800px;
+    }
+    100% {
+        background-position: 800px;
+    }
 }

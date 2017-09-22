@@ -1,11 +1,15 @@
 @import 'variables.scss';
 @import './title/title.scss';
-body , html {
-    background-color:#ededed;
+@import 'line.scss';
+@import './content/content.scss';
+body,
+html {
+    background-color: #ededed;
 }
-.main{
-    width: 400px;
-    height:300px;
+
+.main {
+    width: $Width-main;
+    height: $Height-main;
     margin-left: auto;
     margin-right: auto;
     background-color: white;

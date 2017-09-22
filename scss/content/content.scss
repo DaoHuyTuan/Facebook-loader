@@ -1,0 +1,9 @@
+.content {
+    width:$Width-main;
+    height:$Height-main - $height-Title-image;
+    
+    .content_content {
+        width: $Width-main - $Margin-content_content*2;
+        margin-left: $Margin-content_content;
+    }
+}

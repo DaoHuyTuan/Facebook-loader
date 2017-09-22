@@ -1,5 +1,12 @@
 .title-content {
-    width: $Width-Title - $height-Title-image;
+    width: $Width-Title-content;
     height: $height-Title-image;
-    background-color: blue;
+    
+    .title-content_content {
+        width:$Width-Title-content - $Margin-Title-content-left*2;
+        height:$Height-Title-content -$Margin-Title-content-top ;
+        margin-top: $Margin-Title-content-top;
+        margin-left: $Margin-Title-content-left;
+        
+    }
 }

@@ -1,2 +1,22 @@
+//main
+$Width-main: 400px;
+$Height-main:300px;
+//Title
 $Width-Title:400px;
 $height-Title-image: 100px;
+//Image-title 
+$Margin-Image-left:10px;
+$Margin-Image-right:10px;
+$Margin-Image-top:10px;
+$Margin-Image-bottom:10px;
+//Title-content 
+$Width-Title-content:$Width-Title - $height-Title-image;
+$Height-Title-content:$height-Title-image - $Margin-Image-top;
+$Margin-Title-content-left:10px;
+$Margin-Title-content-right:10px;
+$Margin-Title-content-top:10px;
+$Margin-Title-content-bottom:10px;
+//line
+$Margin-line-large:5px;
+//content 
+$Margin-content_content:10px;

@@ -38,7 +38,7 @@ A beautifull Loading by Facebook
     </div>
 ```
 
-2. SCSS style
+2. CSS style
 ```
 .title-image {
   width: 100px;
